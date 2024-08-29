@@ -7,7 +7,7 @@ import torch.backends.cudnn as cudnn
 from torchvision.transforms import transforms
 from torchvision.datasets import OxfordIIITPet
 from torchvision.models.segmentation import deeplabv3_resnet50
-from segmentation_models_pytorch.losses import SoftBCEWithLogitsLoss,
+from segmentation_models_pytorch.losses import SoftBCEWithLogitsLoss
 from torchmetrics.classification import BinaryJaccardIndex
 from torchmetrics import Dice
 import pickle
